@@ -179,7 +179,7 @@ img {
 }
 
 .signature img {
-  width: 120px;
+  width: 220px;
 }
 
 .about-text {
@@ -232,6 +232,7 @@ img {
 }
 /*-=====================-main-styles-end-=========================*/
 
+/*-=====================-media-start-=========================*/
 @media screen and (max-width: 1400px) {
   .conatiner {
     max-width: 991px;
@@ -266,10 +267,11 @@ img {
   }
 
   .signature img {
-    width: 100px;
+    width: 150px;
   }
 
   .about-text {
     margin: 30px 0 50px 0;
   }
 }
+/*-=====================-media-end-=========================*/
