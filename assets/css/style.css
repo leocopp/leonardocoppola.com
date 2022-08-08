@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins&display=swap');
+
+/*-===========================-global-style-for-all-browsers-================================*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+    background-color: #F5F5F7;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+li>ul,
+li>ol {
+    padding-left: 0;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    outline: none !important;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+}
+
+button,
+a {
+    cursor: pointer;
+    text-decoration: none;
+    border: 0;
+    display: inline-block;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+/*-=====================-global-style-for-all-browsers-end-=========================*/
+
+/*-=====================-main-styles-start-=========================*/
+
+.conatiner {
+    max-width: 1494px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.signature img {
+    width: 120px;
+}
+
+.about-text {
+    margin: 60px 0 85px 0;
+}
+
+.about-text p {
+    font-size: 32px;
+    line-height: 1.3em;
+}
+
+.about-text p a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.about-text p a:hover {
+    color: #3D3D3D;
+}
+
+.social-links {
+    margin-bottom: 20px;
+}
+
+.social-links ul {
+    display: flex;
+}
+
+.social-links ul li {
+    margin-right: 10px;
+}
+
+.social-links ul li a{
+    color: #000000;
+}
+
+.social-links ul li a:hover {
+    color: #3D3D3D;
+    opacity: .9;
+}
+
+.social-links ul li i {
+    font-size: 28px;
+}
+
+.rights-reserved p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    letter-spacing: .3px;
+}
+/*-=====================-main-styles-end-=========================*/
