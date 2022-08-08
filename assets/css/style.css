@@ -194,6 +194,10 @@ img {
   line-height: 1.3em;
 }
 
+.about-text p strong {
+  font-weight: bold;
+}
+
 .about-text p a {
   color: #000000;
   text-decoration: underline;
